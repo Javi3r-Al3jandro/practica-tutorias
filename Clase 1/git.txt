@@ -1,0 +1,4 @@
+En esta clase explicó como se van mejorando las versiones de las actualizaciones.
+Explicó git init, un poco de git hub, un poco de generalidades de la programación
+Despejo dudas de compañeros.
+Creó un index html y un css de estilos pero sólo como ejemplo.
