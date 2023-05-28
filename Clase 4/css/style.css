@@ -1,0 +1,28 @@
+*{               /* normalizado del css. Evita espacios predefinidos */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* cuenta los espacios desde un borde para adentro */
+}
+
+.caja-contenedora{
+    height: 100vh;  /* 70% del alto del viewport */
+    background-color: orange;
+    padding-top: 20px;
+}
+
+.caja-contenedora p{
+    font-size: 1rem;  /* 1rem=16px */
+}
+
+.caja-hijo{
+    background-color: red;
+    font-size: 10px; /* aplico a esta etiqueta un standar de 10px */
+    height: 200px;
+    width: 200px;
+    border: 3px black solid;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.caja-hijo p{
+    font-size: 1em; /* en este caso 1em=10px */
