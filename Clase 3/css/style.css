@@ -1,0 +1,81 @@
+*{        /* normalizar el archivo CSS */
+    box-sizing: border-box; /* el tamaño de borde se cuenta para adentro */
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+header{
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vh; /* el espaciado va en sentido de las agujas del reloj */
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 70px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+header nav a:hover{
+    color: orange;
+    transition: 1s;
+    background-color: rgb(255, 0, 255);
+    border: 1px white solid;
+}
+
+nav{
+    display: flex;
+    gap: 5vw;
+}
+
+body{
+    background-color: darkorange;
+}
+
+:root{
+    --ancho-de-cajas: 50px;
+}
+
+.container{
+    background-color: red;
+    min-height: 100vh;      /* vh=Viewport Heigth */
+    /* 100vh=100% del alto de la pantalla viewport */
+    width: 90vw; /* vw=Viewport width  */   
+    display: flex;/* Regla para poder comenzar a utilizar flexbox */
+    flex-direction: row;
+   /*  gap: 50px; */  /* espaciado entre hijos */
+    flex-wrap: wrap;
+    /* justify-content: center; */   /* mueve el eje x */
+    justify-content: space-around;
+    /* padding: 0 5vw ; */
+}
+
+.caja-1{
+    background-color:aqua;
+}
+
+.caja-2{
+    background-color:blueviolet;
+}
+
+.caja-3{
+    background-color:chartreuse;
+    /* margin-left: 25px; */
+}
+
+.caja{
+    width: 120px;
+    height: 200px;
+    border: black solid 1px;
+}
+
