@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    list-style-type: none;
 }
 
 a{
@@ -45,6 +46,10 @@ header{
     font-size: 1.5rem;
 }
 
+.submenu{
+    display: none;
+}
+
 @media screen and (min-width: 900px){
     body{
         background-color: aqua;}
@@ -53,7 +58,24 @@ header{
     .btn-dropdown{
         display: none;}
     nav{
-        display: flex;}
+        display: flex;
+    }
+    nav ul{
+        display: flex;
+        gap: 6vw;
+    }
+
+    .submenuContainer{
+        position: relative;
+    }
+
+    nav ul .submenuContainer:hover .submenu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        gap: 1vh;
+    }
 }
 
 @media screen and (min-width: 1000px){
