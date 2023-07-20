@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    color: red;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
