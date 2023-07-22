@@ -2,7 +2,7 @@
 import React from 'react'
 import "./Navbar.css"
 
-
+/* navbar */
 const Navbar = () => {
     return(
         <header>
